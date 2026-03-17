@@ -1,0 +1,16 @@
+# Never commit these
+claude_desktop_config.json
+.env
+*.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# macOS
+.DS_Store

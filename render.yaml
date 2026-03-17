@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: btc-options-vs-polymarket
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python btc_dashboard.py
+    envVars:
+      - key: RENDER
+        value: "true"
+    plan: free
